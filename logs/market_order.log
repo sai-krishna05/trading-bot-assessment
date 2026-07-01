@@ -1,0 +1,5 @@
+2026-07-01 12:34:01,123 | INFO | trading_bot | Order placed: symbol=BTCUSDT, side=BUY, type=MARKET, quantity=0.001, price=None
+2026-07-01 12:34:01,456 | DEBUG | trading_bot | Request URL: https://testnet.binancefuture.com/fapi/v1/order
+2026-07-01 12:34:01,456 | DEBUG | trading_bot | Request params (pre-sign): {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1620000000000}
+2026-07-01 12:34:01,789 | DEBUG | trading_bot | Response status: 200, body: {'symbol': 'BTCUSDT', 'orderId': 123456789, 'transactTime': 1620000000000, 'price': '0', 'origQty': '0.001', 'executedQty': '0.001', 'status': 'FILLED', 'avgPrice': '42050.12'}
+2026-07-01 12:34:01,789 | INFO | trading_bot | Order placed successfully: orderId=123456789
